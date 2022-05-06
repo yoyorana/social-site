@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+}
+
+.topbar{
+    margin: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.topbarleft{
+    flex: 3;
+margin-left: 4px;
+    cursor: pointer;
+   
+}
+
+.logo{
+    margin-left: 24px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+
+}
+.topbarcenter{
+    flex:5;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+.searchinput{
+    border: none;
+    
+     /* outline: none; */
+    width: 70%;
+}
+.searchinput:focus{
+    outline: none;
+}
+.topbarright{
+    flex:4;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-between;
+
+}
+.topbaricons{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.topbariconbadge{
+ background-color: red;
+ color: white;
+ height: 10px;
+ width: 15px;
+ border-radius: 50%;
+ position: absolute;
+ top: 0px;
+}
